@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EMMANUEL FOUDA — Développeur d'idées assisté par l'IA. Génie Logiciel × Intelligence Artificielle × Vision Business." />
+  <meta name="author" content="EMMANUEL FOUDA" />
+  <meta property="og:title" content="EMMANUEL FOUDA · Dev & IA" />
+  <meta property="og:description" content="Bâtisseur d'idées à l'intersection du code et de l'intelligence artificielle." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#060810" />
+  <title>EMMANUEL FOUDA · Développeur & IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════ -->
+  <header id="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav__logo">EF<span class="accent">.</span></a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#project">Projet</a></li>
+        <li><a href="#contact" class="nav__cta">Contact</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════
+         HERO
+         ═══════════════════════════════ -->
+    <section id="hero" class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="orb orb--1"></div>
+        <div class="orb orb--2"></div>
+        <div class="orb orb--3"></div>
+        <div class="grid-overlay"></div>
+        <div class="noise-overlay"></div>
+      </div>
+
+      <div class="hero__content container">
+        <div class="hero__badge">
+          <span class="badge__dot" aria-hidden="true"></span>
+          Disponible pour des opportunités
+        </div>
+
+        <h1 class="hero__title">
+          <span class="hero__greeting">Bonjour, je suis</span>
+          <span class="hero__name">EMMANUEL FOUDA</span>
+          <span class="hero__role">
+            Bâtisseur d'idées
+            <em>assisté par l'IA</em>
+          </span>
+        </h1>
+
+        <p class="hero__subtitle">
+          Je combine une vision <strong>business</strong> unique et des compétences <strong>techniques</strong>
+          pour concevoir des solutions innovantes à l'intersection du code et de l'intelligence artificielle.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#project" class="btn btn--primary">
+            <span>Voir mon projet phare</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn--ghost">Me contacter</a>
+        </div>
+
+        <div class="hero__stats" role="list">
+          <div class="stat" role="listitem">
+            <span class="stat__num">2+</span>
+            <span class="stat__label">Années en commerce</span>
+          </div>
+          <div class="stat__divider" aria-hidden="true"></div>
+          <div class="stat" role="listitem">
+            <span class="stat__num">1A</span>
+            <span class="stat__label">Génie Logiciel</span>
+          </div>
+          <div class="stat__divider" aria-hidden="true"></div>
+          <div class="stat" role="listitem">
+            <span class="stat__num">IA</span>
+            <span class="stat__label">EN FORMATION</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Défiler</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════
+         À PROPOS
+         ═══════════════════════════════ -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">01 — À propos</span>
+          <h2 class="section__title">Un parcours <em>atypique</em>,<br>une vision unique.</h2>
+        </div>
+
+        <div class="about__grid reveal">
+          <div class="about__visual">
+            <div class="about__card glass">
+              <div class="about__card-label">Mon parcours</div>
+              <div class="timeline">
+                <div class="timeline__item">
+                  <div class="timeline__line"></div>
+                  <div class="timeline__dot timeline__dot--active" aria-hidden="true"></div>
+                  <div class="timeline__content">
+                    <span class="timeline__year">Aujourd'hui</span>
+                    <p class="timeline__role">Génie Logiciel × IA</p>
+                    <small>Université · 1ère Année</small>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__line"></div>
+                  <div class="timeline__dot" aria-hidden="true"></div>
+                  <div class="timeline__content">
+                    <span class="timeline__year">Avant</span>
+                    <p class="timeline__role">Technique Commerciale</p>
+                    <small>Marketing · Commerce · Comptabilité</small>
+                  </div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__dot" aria-hidden="true"></div>
+                  <div class="timeline__content">
+                    <span class="timeline__year">Vision</span>
+                    <p class="timeline__role">Développeur d'idées</p>
+                    <small>Code + Business + Intelligence</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about__float-badge glass" aria-hidden="true">
+              <span class="float-badge__icon">{ }</span>
+              <span class="float-badge__text">Dev</span>
+            </div>
+
+            <div class="about__float-badge about__float-badge--2 glass" aria-hidden="true">
+              <span class="float-badge__icon">🤖</span>
+              <span class="float-badge__text">IA</span>
+            </div>
+          </div>
+
+          <div class="about__text">
+            <p class="about__lead">
+              Mon parcours n'est pas une erreur de trajectoire —
+              c'est ma <span class="highlight">plus grande force.</span>
+            </p>
+            <p>
+              Après avoir acquis une solide formation en marketing, commerce et comptabilité,
+              j'ai fait le choix audacieux de pivoter vers le Génie Logiciel. Ce croisement de
+              compétences me permet de voir les problèmes techniques avec un prisme business
+              que peu de développeurs possèdent.
+            </p>
+            <p>
+              Je me définis comme un <strong>"Développeur d'idées"</strong> : je ne crée pas seulement du code,
+              je conçois des <em>solutions qui ont du sens business</em>, enrichies par la puissance de l'IA.
+            </p>
+
+            <div class="about__tags" role="list">
+              <span class="tag" role="listitem">Pensée Systémique</span>
+              <span class="tag" role="listitem">Vision Produit</span>
+              <span class="tag" role="listitem">IA & Automatisation</span>
+              <span class="tag" role="listitem">Innovation</span>
+              <span class="tag" role="listitem">Stratégie</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════
+         COMPÉTENCES
+         ═══════════════════════════════ -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">02 — Compétences</span>
+          <h2 class="section__title">Mon arsenal<br><em>de compétences.</em></h2>
+        </div>
+
+        <div class="skills__grid reveal">
+
+            <!-- Carte 3 -->
+          <article class="skill-card glass">
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+              </svg>
+            </div>
+            <h3 class="skill-card__title">Vision Commerciale</h3>
+            <p class="skill-card__desc">Une compréhension profonde des enjeux business pour concevoir des produits tech qui génèrent de la valeur réelle.</p>
+            <ul class="skill-card__list">
+              <li>Marketing & Stratégie</li>
+              <li>Analyse de marché</li>
+              <li>Comptabilité </li>
+              <li>Gestion de projet</li>
+            </ul>
+            <div class="skill-card__glow" aria-hidden="true"></div>
+          </article>
+
+          <!-- Carte 1 -->
+          <article class="skill-card glass">
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <h3 class="skill-card__title">Technologie & Code</h3>
+            <p class="skill-card__desc">Construction de solutions web robustes avec des outils modernes et une architecture pensée pour durer.</p>
+            <ul class="skill-card__list">
+              <li>HTML · CSS </li>
+              <li>Algorithmique</li>
+              <li>Git </li>
+            </ul>
+            <div class="skill-card__glow" aria-hidden="true"></div>
+          </article>
+
+          <!-- Carte 2 — Featured -->
+          <article class="skill-card skill-card--featured glass">
+            <div class="skill-card__badge">Core Focus</div>
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+              </svg>
+            </div>
+            <h3 class="skill-card__title">Intelligence Artificielle</h3>
+            <p class="skill-card__desc">Exploration et application des modèles IA pour créer des expériences intelligentes et personnalisées.</p>
+            <ul class="skill-card__list">
+              <li>LLMs & Prompt Engineering</li>
+              <li>RAG (Retrieval Augmented Gen.)</li>
+            </ul>
+            <div class="skill-card__glow skill-card__glow--accent" aria-hidden="true"></div>
+          </article>
+
+          
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════
+         PROJET PHARE
+         ═══════════════════════════════ -->
+    <section id="project" class="project section">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">03 — Projet Phare</span>
+          <h2 class="section__title">Ce que je bâtis<br><em>en ce moment.</em></h2>
+        </div>
+
+        <article class="project__card glass reveal">
+          <div class="project__top-line" aria-hidden="true"></div>
+
+          <div class="project__meta">
+            <span class="project__status">
+              <span class="status-dot" aria-hidden="true"></span>
+              En développement actif
+            </span>
+            <span class="project__type">IA · Agent Conversationnel · SaaS</span>
+          </div>
+
+          <div class="project__content">
+            <div class="project__info">
+              <h3 class="project__title">Chatbot IA Vendeur<span class="accent">_</span></h3>
+              <p class="project__lead">
+                Un agent conversationnel intelligent conçu pour vendre sur-mesure,
+                s'auto-améliorer et s'adapter à chaque business en temps réel.
+              </p>
+              <p class="project__desc">
+                Ce projet combine une base de données vectorielle (RAG) pour une connaissance
+                produit profonde, et un système d'entraînement inédit : le propriétaire peut
+                former son agent directement via des <strong>directives vocales ou textuelles</strong>,
+                sans aucune compétence technique requise.
+              </p>
+
+              <div class="project__features" role="list">
+                <div class="feature" role="listitem">
+                  <div class="feature__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/>
+                    </svg>
+                  </div>
+                  <div class="feature__text">
+                    <strong>Base RAG implantée</strong>
+                    <span>Connaissance vectorisée, contextuelle et toujours à jour</span>
+                  </div>
+                </div>
+                <div class="feature" role="listitem">
+                  <div class="feature__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/>
+                    </svg>
+                  </div>
+                  <div class="feature__text">
+                    <strong>Entraînement Vocal & Textuel</strong>
+                    <span>Le propriétaire forme l'IA en temps réel, sans code</span>
+                  </div>
+                </div>
+                <div class="feature" role="listitem">
+                  <div class="feature__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                    </svg>
+                  </div>
+                  <div class="feature__text">
+                    <strong>Vente sur-mesure</strong>
+                    <span>Adapté au contexte, au client, au produit vendu</span>
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>
+
+            <div class="project__visual" aria-label="Aperçu du chatbot">
+              <div class="chat-mockup">
+                <div class="chat-mockup__header">
+                  <div class="chat-mockup__dots" aria-hidden="true">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <span class="chat-mockup__title">AI Sales Agent · v0.9</span>
+                  <span class="chat-mockup__status">
+                    <span class="chat-status-dot" aria-hidden="true"></span>
+                    Live
+                  </span>
+                </div>
+                <div class="chat-mockup__body">
+                  <div class="chat-bubble chat-bubble--bot">
+                    👋 Bonjour ! Je suis votre assistant commercial IA. Comment puis-je vous aider aujourd'hui ?
+                  </div>
+                  <div class="chat-bubble chat-bubble--user">
+                    Quels sont vos meilleurs produits pour une PME de 20 personnes ?
+                  </div>
+                  <div class="chat-bubble chat-bubble--bot">
+                    Excellente question ! Selon votre profil et vos besoins, je vous recommande…
+                    <span class="typing-dots" aria-label="En train d'écrire">
+                      <span></span><span></span><span></span>
+                    </span>
+                  </div>
+                  <div class="chat-thinking">
+                    <span class="thinking-label">Analyse RAG en cours</span>
+                    <div class="thinking-bar">
+                      <div class="thinking-bar__fill"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════
+         CONTACT
+         ═══════════════════════════════ -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="contact__wrapper reveal">
+          <div class="contact__content">
+            <span class="section__tag">04 — Contact</span>
+            <h2 class="contact__title">
+              Construisons<br>quelque chose<br><em>ensemble.</em>
+            </h2>
+            <p class="contact__desc">
+              Vous avez une idée, un projet, ou simplement envie d'échanger ?
+              Je suis toujours ouvert aux nouvelles collaborations et opportunités.
+            </p>
+          </div>
+
+          <div class="contact__links">
+            <a href="mailto:emmanuelrony872@gmail.com" class="contact__link glass" aria-label="Envoyer un email">
+              <div class="contact__link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <div class="contact__link-text">
+                <strong>Email</strong>
+                <span>emmanuelrony872@gmail.com</span>
+              </div>
+              <svg class="contact__link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+
+            <a href="https://linkedin.com/in/votre-profil" target="_blank" rel="noopener noreferrer" class="contact__link glass" aria-label="Voir le profil LinkedIn">
+              <div class="contact__link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </div>
+              <div class="contact__link-text">
+                <strong>LinkedIn</strong>
+                <span>Connectons-nous professionnellement</span>
+              </div>
+              <svg class="contact__link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+
+            <a href="https://github.com/votre-profil" target="_blank" rel="noopener noreferrer" class="contact__link glass" aria-label="Voir le profil GitHub">
+              <div class="contact__link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+                </svg>
+              </div>
+              <div class="contact__link-text">
+                <strong>GitHub</strong>
+                <span>Explorer mes projets open-source</span>
+              </div>
+              <svg class="contact__link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contact__bg-text" aria-hidden="true">CONTACT</div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════
+       FOOTER
+       ═══════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <span class="footer__logo">EF<span class="accent">.</span></span>
+        <p class="footer__copy">© 2025 EMMANUEL FOUDA — Conçu & développé avec passion.</p>
+        <span class="footer__made">Made with <span class="accent">♥</span> & IA</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════
+       SCRIPTS (vanilla JS only)
+       ═══════════════════════════════ -->
+  <script>
+    /* ── Burger Menu ── */
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('navLinks');
+
+    burger.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('nav__links--open');
+      burger.classList.toggle('nav__burger--open');
+      burger.setAttribute('aria-expanded', String(isOpen));
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('nav__links--open');
+        burger.classList.remove('nav__burger--open');
+        burger.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    });
+
+    /* ── Header scroll effect ── */
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('header--scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    /* ── Scroll reveal (Intersection Observer) ── */
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+
+    revealEls.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
